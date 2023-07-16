@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cont">
+      <div class="HomeVideo">
+        <video
+          class="js-video"
+          playsinline=""
+          muted=""
+          loop=""
+          autoplay=""
+          preload=""
+          poster="/assets/images/poster.png"
+          style="opacity: 1"
+        >
+          <source
+            src="https://cdn.shopify.com/videos/c/o/v/21fdabf884d14148a368ea24733f1902.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+
+      <div class="div">
+        <div class="sorter">
+          <div>
+            <select name="" id="" class="sel">
+              <option value="without">without</option>
+              <option value="from-high">from-high</option>
+              <option value="from-bottom">from-bottom</option>
+              <option value="from-A-Z">from-A-Z</option>
+              <option value="from-Z-A">from-Z-A</option>
+            </select>
+            <button type="button" class="sub">sort</button>
+          </div>
+          <div>
+            <input type="text" class="search" placeholder="Поиск" />
+            <button type="button" class="search-btn">search</button>
+          </div>
+        </div>
+        <ul class="titles-list"></ul>
+        <span class="loader visible"></span>
+        <div class="moves">
+          <button type="button" class="back-pge design"><</button>
+          <p class="count-page"></p>
+          <button type="button" class="next-pge design">></button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-disc">
+          <a href="" class="footer-logo link">Brit<span>lex</span></a>
+          <ul class="footer-lst list">
+            <li class="footer-element">Terms and Conditions</li>
+            <li class="footer-element element-with">Privacy Policy</li>
+            <li class="footer-element element-with">Cookie Policy</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./function.js"></script>
+  </body>
+</html>
